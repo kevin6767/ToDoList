@@ -48,10 +48,11 @@ ul li.checked::before {
   
   /* Style the header */
 .header {
-    background-color: #f44336;
+    background-color: darkslategray;
     padding: 30px 40px;
     color: white;
     text-align: center;
+    
 }
   
   /* Clear floats after the header */
@@ -73,7 +74,7 @@ input {
 }
   
   /* Style the "Add" button */
-.addBtn {
+.toButton {
     padding: 10px;
     width: 25%;
     background: #d9d9d9;
@@ -90,3 +91,8 @@ input {
     background-color: #bbb;
 
 }
+
+* {
+    box-sizing: border-box;
+  }
+  
